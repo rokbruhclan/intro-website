@@ -1,0 +1,50 @@
+* {
+  color: white;
+  background-color: black;
+}
+.fb-comment-comment {
+width: 500px;
+}
+body {
+  width: auto;
+  margin: 0 15%;
+}
+.fblink {
+  width: inherit;
+  text-decoration: none;
+  color: lime;
+}
+.noti {
+  color: red;
+  display: inline;
+}
+.clan {
+  color: cyan;
+  display: inline;
+}
+.center {
+  display: block;
+  text-align: center;
+}
+td {
+  padding: 20px;
+  border: 1px solid white;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: justify;
+}
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+#fblogo {
+  border-radius: 10px;
+  border: 1px solid blue;
+}
+#dclogo {
+  border-radius: 10px;
+  border: 1px solid purple;
+}
