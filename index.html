@@ -3,14 +3,112 @@
   <head>
     <meta charset="utf-8">
     <title>Trang chủ</title>
+    <style media="screen">
+      * {
+        color: white;
+        background-color: black;
+      }
+      .center {
+        text-align: center;
+      }
+      .fb-comment-comment {
+      width: 500px;
+      }
+      body {
+        width: auto;
+        margin: 0 15%;
+      }
+      .fblink {
+        width: inherit;
+        text-decoration: none;
+        color: lime;
+      }
+      .noti {
+        color: red;
+        display: inline;
+      }
+      .clan {
+        color: cyan;
+        display: inline;
+      }
+      td {
+        padding: 20px;
+        border: 1px solid white;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: justify;
+      }
+      table {
+        border-spacing: 0px;
+        border-collapse: collapse;
+      }
+      #fblogo {
+        border-radius: 10px;
+        border: 1px solid blue;
+      }
+      #dclogo {
+        border-radius: 10px;
+        border: 1px solid purple;
+      }
+    </style>
   </head>
   <body>
 <h1>Liên minh Dark dark bruh bruh lmao - Rise of Kingdoms</h1>
-<h2>
-  <i>Liên hệ Facebook Thủ lĩnh</i>
-  <a href="https://www.facebook.com/profile.php?id=100071803686209">
-    &nbspQuàng Thắng
-  </a>
-</h2>
+<h2 class="center">Xin chào 500 anh em, đây là trang web của liên minh <p class="clan">[lzks]dakdakbruhbruhlmao</p> trong tựa game Rise of Kingdoms.</h2>
+<!-- nhúng ảnh liên minh -->
+<h2>Để có thể tham gia <i>Hội nhóm Facebook Messenger</i> hoặc <i class="noti" title="Chưa mở">Hội quán Discord (chưa mở)</i> của Liên minh, anh em có thể liên hệ Thủ lĩnh và
+  các sĩ quan dưới đây để được hỗ trợ gia nhập. Hoặc anh em có thể để yêu cầu gia nhập qua phần bình luận ở phía dưới nếu anh em đã báo trước trong game.</h2>
+  <table>
+    <tbody>
+      <th>
+        <td>Thông tin</td>
+        <td>
+          <img id="fblogo" src="/img/logo/fblogo.png" alt="Facebook" height="35px">
+        </td>
+        <td>
+          <img id="dclogo" src="/img/logo/dclogo.png" alt="Discord" height="35px">
+        </td>
+      </th>
+      <tr>
+        <td>Thủ lĩnh</td>
+        <td></td>
+        <td><a class="fblink" href="https://www.facebook.com/profile.php?id=100071803686209">Quang Huy</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Sĩ quan</td>
+        <td></td>
+        <td><a class="fblink" href="https://www.facebook.com/ysc123kk">Chịu</a></td>
+        <td>めぐみん#4581</td>
+      </tr>
+      <tr>
+        <td>Sĩ quan</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Sĩ quan</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+<!-- <i>Liên hệ Facebook Thủ lĩnh</i>
+<a href="https://www.facebook.com/profile.php?id=100071803686209">
+&nbspQuàng Thắng
+</a>a -->
+
+
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6"></script>
+
+<div class="fb-comment-embed"
+   data-href="https://rokbruhclan.cf/"
+   data-width="500"></div>
   </body>
 </html>
