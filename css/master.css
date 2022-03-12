@@ -1,3 +1,9 @@
+html {
+  margin: 0;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 body {
   background-color: black;
   width: auto;
@@ -26,6 +32,15 @@ body {
   color: cyan;
   display: inline;
 }
+#col1 {
+  width: 80px;
+}
+#col3 {
+  width: 100px;
+}
+#col4 {
+  width: 110px;
+}
 .center {
   display: block;
   text-align: center;
@@ -33,6 +48,7 @@ body {
 th,td {
   padding: 20px;
   border: 1px solid white;
+  text-align: center;
 }
 h1 {
   text-align: center;
@@ -44,12 +60,4 @@ table {
   width: 100%;
   border-spacing: 0px;
   border-collapse: collapse;
-}
-#fblogo {
-  border-radius: 10px;
-  border: 1px solid blue;
-}
-#dclogo {
-  border-radius: 10px;
-  border: 1px solid purple;
 }

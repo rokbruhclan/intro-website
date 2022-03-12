@@ -20,40 +20,53 @@
   các sĩ quan dưới đây để được hỗ trợ gia nhập. Hoặc anh em có thể để yêu cầu gia nhập qua phần bình luận ở phía dưới nếu anh em đã báo trước trong game.</h2>
   <table>
       <tr>
-        <th>Chức vụ</th>
+        <th id="col1">Chức vụ</th>
         <th>Thông tin</th>
-        <th>
-          <img id="fblogo" src="/img/logo/fblogo.png" alt="Facebook" height="35px">
+        <th id="col3">
+          Facebook
         </th>
-        <th>
-          <img id="dclogo" src="/img/logo/dclogo.png" alt="Discord" height="35px">
+        <th id="col4">
+          Discord
         </th>
       </tr>
       <tr>
         <td>Thủ lĩnh</td>
         <td></td>
-        <td><a class="fblink" href="https://www.facebook.com/profile.php?id=100071803686209">Quang Huy</a></td>
-        <td></td>
+        <td><a class="fblink" target="_blank" href="https://www.facebook.com/profile.php?id=100071803686209">Quang Huy</a></td>
+        <td class="disc"></td>
       </tr>
       <tr>
         <td>Sĩ quan</td>
         <td></td>
-        <td><a class="fblink" href="https://www.facebook.com/ysc123kk">Chịu</a></td>
-        <td>めぐみん#4581</td>
-      </tr>
-      <tr>
-        <td>Sĩ quan</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><a class="fblink" target="_blank" href="https://www.facebook.com/ysc123kk">Chịu</a></td>
+        <td class="disc">めぐみん#4581</td>
       </tr>
       <tr>
         <td>Sĩ quan</td>
         <td></td>
         <td></td>
+        <td class="disc"></td>
+      </tr>
+      <tr>
+        <td>Sĩ quan</td>
         <td></td>
+        <td></td>
+        <td class="disc"></td>
       </tr>
   </table>
+  <script type="text/javascript">
+    for (let i of document.getElementsByClassName("disc")) {
+      i.addEventListener("mousedown", e => {
+        navigator.clipboard.writeText(e.path[0].innerHTML);
+        alert("Đã sao chép!");
+      });
+    }
+    for (let i of document.all) {
+      i.addEventListener("contextmenu", e => {
+        e.preventDefault();
+      })
+    }
+  </script>
   <div class="fb-comments" data-order-by="reverse_time" data-href="https://rokbruhclan.cf/" data-width="100%" data-numposts="10"></div>
   </body>
 </html>
